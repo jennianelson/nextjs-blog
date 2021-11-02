@@ -39,7 +39,7 @@ export default function Home({allPostsData}: HomeProps) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Hi, I'm Jennifer. I'm a UI/UX Engineer specializing in React, design systems, and designer-developer collaboration.</p>
+        <p>Hi, I&#39m Jennifer. I&#39m a UI/UX Engineer specializing in React, design systems, and designer-developer collaboration.</p>
         <p>
           (This is a sample website - you’ll be building a site like this on{' '}
           <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
