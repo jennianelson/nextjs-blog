@@ -1,13 +1,19 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from './layout.module.css'
-import utilStyles from '../styles/utils.module.css'
-import Link from 'next/link'
+import Head from 'next/head';
+import Image from 'next/image';
+import Link from 'next/link';
 
-const name = 'Jennifer'
-export const siteTitle = 'Next.js Sample Website'
+import styles from './layout.module.css';
+import utilStyles from '../styles/utils.module.css';
 
-export default function Layout({ children, home }) {
+const name = 'Jennifer';
+export const siteTitle = 'Next.js Sample Website';
+
+interface LayoutProps {
+  children: React.ReactNode;
+  home?: boolean;
+}
+
+export default function Layout({ children, home }: LayoutProps): JSX.Element {
   return (
     <div className={styles.container}>
       <Head>
@@ -69,5 +75,5 @@ export default function Layout({ children, home }) {
         </div>
       )}
     </div>
-  )
+  );
 }
