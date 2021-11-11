@@ -1,12 +1,12 @@
-import Head from 'next/head';
-import Image from 'next/image';
-import Link from 'next/link';
+import Head from "next/head";
+import Image from "next/image";
+import Link from "next/link";
 
-import styles from './layout.module.css';
-import utilStyles from '../styles/utils.module.css';
+import styles from "./layout.module.css";
+import utilStyles from "styles/utils.module.css";
 
-const name = 'Jennifer';
-export const siteTitle = 'Next.js Sample Website';
+const name = "Jennifer Alfano";
+export const siteTitle = "Next.js Sample Website";
 
 interface LayoutProps {
   children: React.ReactNode;
